@@ -44,13 +44,15 @@
   width: 100px; 
   height: 100px; 
   background-color: green; 
-  margin-left: 50 px;
+  margin-left: 50px;
   margin-top: -50px;
 } 
 .yellow2 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
+  margin-left: 100px;
+  margin-top: -50px;
 } 
 .blue2 {
   width: 100px; 
