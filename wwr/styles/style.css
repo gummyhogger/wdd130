@@ -50,6 +50,8 @@ main section {
 }
 header {
     background-color: #7daa92;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 nav a:hover {
     background-color: #7daa92;
@@ -94,4 +96,25 @@ footer p a:hover {
 }
 #hero-img {
     width: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+#hero-msg {
+grid-column: 2/3;
+grid-row: 1/2;
 }
